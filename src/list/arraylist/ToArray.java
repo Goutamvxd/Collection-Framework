@@ -1,6 +1,7 @@
-package list;
+package list.arraylist;
 
 import java.util.ArrayList;
+import java.util.stream.Stream;
 
 public class ToArray {
 
@@ -31,6 +32,9 @@ public class ToArray {
 		for(String s:strArr) {
 			System.out.println(s);
 		}
+		
+		// create stream
+		Stream<String> streams=iplCaptains.stream();
 		
 		
 	}
